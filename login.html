@@ -7,12 +7,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-      <link rel="shortcut icon" href="faveicon.png">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="faveicon.png" />
   </head>
   <body>
     <nav class="bg-white px-10 py-4 shadow sticky inset-0 z-1">
-      <img src="glovoimage.png" alt="Glovo" class="w-20" />
+      <a href="index.html"
+        ><img src="glovoimage.png" alt="Glovo" class="w-20"
+      /></a>
     </nav>
 
     <div class="flex items-center justify-center">
@@ -22,33 +25,39 @@
           Continue with one of the following options
         </p>
 
-       <div class="flex gap-3 mb-3">
+        <div class="flex gap-3 mb-3">
+          <div>
+            <label class="text-sm font-bold text-gray-500 mb-1 block"
+              >Prefix</label
+            >
+            <select
+              class="border border-gray-300 rounded-lg px-4 py-3 text-sm outline-none w-28"
+            >
+              <option>🇪🇸 +34</option>
+              <option>🇬🇧 +44</option>
+              <option>🇺🇸 +1</option>
+              <option>NGN +234</option>
+              <option>🇫🇷 +33</option>
+              <option>🇮🇹 +39</option>
+              <option>🇬🇭 +233</option>
+            </select>
+          </div>
 
-  
-  <div>
-    <label class="text-sm font-bold text-gray-500 mb-1 block">Prefix</label>
-    <select class="border border-gray-300 rounded-lg px-4 py-3 text-sm outline-none w-28">
-      <option>🇪🇸 +34</option>
-      <option>🇬🇧 +44</option>
-      <option>🇺🇸 +1</option>
-      <option>NGN +234</option>
-      <option>🇫🇷 +33</option>
-      <option>🇮🇹 +39</option>
-      <option>🇬🇭 +233</option>
-    </select>
-  </div>
-
-  
-  <div class="flex-1">
-    <label class="text-sm font-bold text-gray-500 mb-1 block">Phone number</label>
-    <input type="tel" placeholder="Phone number" 
-    class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm outline-none">
-  </div>
-
-</div>
+          <div class="flex-1">
+            <label class="text-sm font-bold text-gray-500 mb-1 block"
+              >Phone number</label
+            >
+            <input
+              type="tel"
+              placeholder="Phone number"
+              class="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm outline-none"
+            />
+          </div>
+        </div>
 
         <p class="font-medium text-sm mt-3 mb-10">
-          This site is protected by reCAPTCHA and the Google <span class="text-[#00755E] font-bold" >Privacy Policy</span> and
+          This site is protected by reCAPTCHA and the Google
+          <span class="text-[#00755E] font-bold">Privacy Policy</span> and
           <span class="text-[#00755E] font-bold">Terms of Service </span> apply.
         </p>
 
